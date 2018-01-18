@@ -33,6 +33,8 @@
   <project name="device-intel-build" path="device/intel/build" remote="github" revision="master" />
   <project name="libva" path="vendor/intel/external/android_ia/libva" remote="github" revision="master" />
   <project name="vaapi" path="vendor/intel/external/android_ia/vaapi" remote="github" revision="master" />
+  <project path="vendor/intel/tools/log_capture" name="a/bsp/device/intel/log_capture" revision="android/master" spsId="59066"/>
+  <project path="vendor/intel/tools/log_infra" name="a/bsp/device/intel/log_infra" groups="bsp-priv,embargoed" revision="android/master" spsId="59067">
   <project path="hardware/interfaces" name="hardware-interfaces" remote="github" revision="master" />
     <!-- From public kernel.org -->
   <project name="pub/scm/linux/kernel/git/firmware/linux-firmware" path="vendor/linux/firmware" remote="kernelorg" revision="695f2d6d82173f4e322d8f834c9849775778022a" />
